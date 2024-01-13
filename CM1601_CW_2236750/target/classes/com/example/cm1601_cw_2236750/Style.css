@@ -1,0 +1,15 @@
+.functions:hover{
+-fx-border-color:Black;
+}
+
+.exit:hover{
+-fx-border-color:#2E86C1;
+}
+
+.addDriver:hover{
+-fx-border-color:Red;
+}
+
+.back:hover{
+-fx-border-color:Red;
+}

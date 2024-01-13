@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="413.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cm1601_cw_2236750.HelloController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="126.0" prefWidth="568.0" style="-fx-background-color: black;">
+         <children>
+            <Label layoutX="23.0" layoutY="14.0" prefHeight="98.0" prefWidth="418.0" style="-fx-background-color: black;" text="Save data to a file:" textFill="#ef2323">
+               <font>
+                  <Font name="Bank Gothic Light BT" size="35.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="10.0" layoutY="107.0" prefHeight="304.0" prefWidth="568.0" style="-fx-background-color: black;">
+         <children>
+            <TextField layoutX="103.0" layoutY="57.0" prefHeight="26.0" prefWidth="366.0" promptText="Data will be saved to a file of the name you enter..." />
+            <Label layoutX="103.0" layoutY="28.0" text="File name :" textFill="#dded26">
+               <font>
+                  <Font name="Bank Gothic Light BT" size="20.0" />
+               </font>
+            </Label>
+            <Button layoutX="31.0" layoutY="170.0" mnemonicParsing="false" onAction="#mainScene" prefHeight="26.0" prefWidth="72.0" style="-fx-background-color: #FF5804;" styleClass="functions" stylesheets="@Style.css" text="Back" />
+            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="450.0" layoutY="170.0" mnemonicParsing="false" onAction="#closeProgram" prefHeight="26.0" prefWidth="92.0" style="-fx-background-color: red;" styleClass="exit" stylesheets="@Style.css" text="Exit" />
+            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="203.0" layoutY="227.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="151.0" style="-fx-background-color: red;" styleClass="functions" stylesheets="@Style.css" text="Save File" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

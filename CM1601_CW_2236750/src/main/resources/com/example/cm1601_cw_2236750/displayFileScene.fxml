@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="553.0" prefWidth="607.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cm1601_cw_2236750.HelloController">
+   <children>
+      <AnchorPane layoutX="7.0" layoutY="10.0" prefHeight="74.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="40.0" layoutY="3.0" prefHeight="78.0" prefWidth="500.0" style="-fx-background-color: black;" text="Driver data in file :" textFill="#ef2323">
+               <font>
+                  <Font name="Bank Gothic Light BT" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="12.0" layoutY="105.0" prefHeight="346.0" prefWidth="582.0" style="-fx-background-color: black; -fx-border-color: blue;" />
+      <AnchorPane layoutX="8.0" layoutY="500.0" prefHeight="110.0" prefWidth="600.0">
+         <children>
+            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="229.0" layoutY="55.0" mnemonicParsing="false" onAction="#updateDriver" prefHeight="34.0" prefWidth="142.0" style="-fx-background-color: red;" styleClass="functions" stylesheets="@Style.css" text="Update Data" />
+            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="455.0" layoutY="14.0" mnemonicParsing="false" onAction="#closeProgram" prefHeight="30.0" prefWidth="104.0" style="-fx-background-color: red;" styleClass="exit" stylesheets="@Style.css" text="Exit" />
+            <Button layoutX="30.0" layoutY="12.0" mnemonicParsing="false" onAction="#mainScene" prefHeight="26.0" prefWidth="72.0" style="-fx-background-color: #FF5804;" styleClass="functions" stylesheets="@Style.css" text="Back" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
